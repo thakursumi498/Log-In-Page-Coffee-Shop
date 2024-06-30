@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('cartoon-gray-cat-drinking-coffee-from-cup-outdoors_212957-1010.avif'); /* Replace with your background image */
+    background-size: cover;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar .logo {
+    color: red;
+    font-size: 34px;
+}
+
+.navbar .menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .menu ul li {
+    margin: 0 10px;
+}
+
+.navbar .menu ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar .search {
+    display: flex;
+}
+
+.navbar .search .srch {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.navbar .search .btn {
+    padding: 5px 10px;
+    background-color: cyan;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+}
+
+.content span{
+    color: white;
+}
+
+.intro {
+    padding: 50px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.intro h2 {
+    font-size: 2.5em;
+    color: red;
+}
+
+.intro p {
+    font-size: 1.2em;
+}
+
+.intro .cn {
+    padding: 10px 20px;
+    background-color: cyan;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.login {
+    padding: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.login h3 {
+    font-size: 1.5em;
+    color: cyan;
+}
+
+.login form {
+    margin: 20px 0;
+}
+
+.login form input {
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+}
+
+.login form .btnn {
+    padding: 10px 20px;
+    background-color: cyan;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
+.login p a {
+    color: cyan;
+}
+
+.social-login {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-login a ion-icon {
+    font-size: 30px;
+    color: white;
+}
